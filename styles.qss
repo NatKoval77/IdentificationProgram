@@ -1,0 +1,132 @@
+/* Основные стили приложения */
+QMainWindow {
+    background-color: #F5F5F5;
+}
+
+QTabWidget {
+    width: 100%;  /* Растягиваем на всю доступную ширину */
+}
+
+QTabWidget::pane {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+QTabBar::tab {
+    background-color: #E0E0E0;
+    color: #424242;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 2px;
+    min-width: 200px;  /* Минимальная ширина вкладки */
+    text-align: center;  /* Центрирование текста */
+    flex: 1;  /* Растягиваем вкладки равномерно */
+}
+
+QTabBar::tab:selected {
+    background-color: white;
+    border-bottom: 2px solid #2196F3;
+}
+
+QTabBar::tab:hover {
+    background-color: #BDBDBD;
+}
+
+QProgressBar {
+    border: 2px solid #E0E0E0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+QProgressBar::chunk {
+    background-color: #2196F3;
+    border-radius: 3px;
+}
+
+/* Стили для кнопок */
+QPushButton {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #1976D2;
+}
+
+QPushButton:pressed {
+    background-color: #0D47A1;
+}
+
+QPushButton:disabled {
+    background-color: #BDBDBD;
+}
+
+/* Стили для полей ввода */
+QLineEdit {
+    padding: 8px;
+    border: 2px solid #BDBDBD;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #2196F3;
+}
+
+/* Стили для меток */
+QLabel {
+    color: #424242;
+    font-size: 14px;
+}
+
+/* Стили для заголовка */
+QLabel#title {
+    color: #1976D2;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Стили для областей отображения изображений */
+QLabel#image_display {
+    background-color: white;
+    border: 2px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Стили для статусных меток */
+QLabel#status_success {
+    color: #4CAF50;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#status_error {
+    color: #D32F2F;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#status_info {
+    color: #2196F3;
+    font-size: 14px;
+}
+
+#info_text {
+    color: #666666;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+} 

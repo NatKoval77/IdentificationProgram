@@ -1,0 +1,77 @@
+1 подпапка содержит изображение лиц в анфас виде. 
+2 подпапка содержит сложные виды изображений. 
+3 подпапка содержит еще две подпапки: 
+1 - позитивные пары (пара из лиц принадлежащих одному человеку), 
+2 - негативные пары (лица НЕ принадлежащие одному человеку).
+
+test_images/
+├── 1front/
+│   ├── pers1_f1.jpg
+│   ├── pers1_f2.jpg
+│   ├── pers1_f3.jpg
+│   ├── pers2_f1.jpg
+│   ├── pers2_f2.jpg
+│   ├── pers2_f3.jpg
+│   ├── pers3_f1.jpg
+│   ├── pers3_f2.jpg
+│   └── pers3_f3.jpg
+├── 2challenge/
+│   ├── pers1_ac.jpg
+│   ├── pers1_bad.jpg
+│   ├── pers1_gl.jpg
+│   ├── pers1_ms.jpg
+│   ├── pers2_ac.jpg
+│   ├── pers2_bad.jpg
+│   ├── pers2_gl.jpg
+│   ├── pers2_ms.jpg
+│   ├── pers3_ac.jpg
+│   ├── pers3_bad.jpg
+│   ├── pers3_gl.jpg
+│   ├── pers3_ms.jpg
+│   ├── pers4_ac.jpg
+│   ├── pers4_gl.jpg
+│   ├── pers5_bad.jpg
+│   └── pers5_ms.jpg
+└── 3pairs/
+    ├── 1positive/
+    │   ├── p1_1.jpg
+    │   ├── p1_2.jpg
+    │   ├── p2_1.jpg
+    │   ├── p2_2.jpg
+    │   ├── p3_1.jpg
+    │   ├── p3_2.jpg
+    │   ├── p4_1.jpg
+    │   ├── p4_2.jpg
+    │   ├── p5_1.jpg
+    │   ├── p5_2.jpg
+    │   ├── p6_1.jpg
+    │   ├── p6_2.jpg
+    │   ├── p7_1.jpg
+    │   ├── p7_2.jpg
+    │   ├── p8_1.jpg
+    │   ├── p8_2.jpg
+    │   ├── p9_1.jpg
+    │   ├── p9_2.jpg
+    │   ├── p10_1.jpg
+    │   └── p10_2.jpg
+    └── 2negative/
+        ├── n1_1.jpg
+        ├── n1_2.jpg
+        ├── n2_1.jpg
+        ├── n2_2.jpg
+        ├── n3_1.jpg
+        ├── n3_2.jpg
+        ├── n4_1.jpg
+        ├── n4_2.jpg
+        ├── n5_1.jpg
+        ├── n5_2.jpg
+        ├── n6_1.jpg
+        ├── n6_2.jpg
+        ├── n7_1.jpg
+        ├── n7_2.jpg
+        ├── n8_1.jpg
+        ├── n8_2.jpg
+        ├── n9_1.jpg
+        ├── n9_2.jpg
+        ├── n10_1.jpg
+        └── n10_2.jpg

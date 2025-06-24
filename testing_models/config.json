@@ -1,0 +1,13 @@
+{
+  "test_sets": {
+    "frontal": "test_images/1front/*.jpg",
+    "challenge": "test_images/2challenge/*.jpg",
+    "positive_pairs": "test_images/3pairs/1positive/",
+    "negative_pairs": "test_images/3pairs/2negative/"
+  },
+  "thresholds": {
+    "facenet": 0.7,
+    "dlib": 0.7,
+    "insightface": 0.7
+  }
+}
